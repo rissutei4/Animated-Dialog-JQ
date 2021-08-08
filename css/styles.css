@@ -1,0 +1,113 @@
+/* jquery dialog */
+
+.ui-dialog .ui-dialog-titlebar {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    padding: 42px 111px;
+    float: none;
+    min-width: 752px;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    color: #FFFFFF;
+    background: none;
+    border: 0;
+    position: absolute;
+    right: .3em;
+    top: 13%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.ui-dialog .ui-dialog-title {
+    float: none;
+    width: auto;
+    overflow: visible;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br, .ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl, .ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr, .ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl, .ui-widget.ui-widget-content {
+    border-radius: 0;
+    border: none;
+}
+
+.ui-dialog-content.ui-widget-content {
+    padding: 42px 69px;
+    min-width: 752px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #fbfbfb;
+}
+.emailContain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.emailText {
+    text-transform: uppercase;
+    color: #363636;
+}
+
+.inputEmail {
+    border: 1px solid #b7b7b7;
+    border-radius: 5px;
+    min-width: 374px;
+    min-height: 60px;
+    outline: none
+}
+.btn_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn_container button:first-of-type{
+    min-width: 520px;
+    border:none;
+    border-radius: 5px;
+    padding: 21px;
+    background-color: #d2d2d2;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.3s linear;
+}
+.btn_container button:first-of-type:hover{
+ color:#fbfbfb;
+    background-color: crimson;
+}
+.btn_container p{
+    text-transform: uppercase;
+    color: #363636;
+}
+.btn_container .btn{
+    min-width: 520px;
+    border:none;
+    border-radius: 5px;
+    padding: 21px;
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s linear;
+}
+.btn_container .btn.blue{
+    background-color: #4866a4;
+    color:#FFFFFF;
+}
+.btn_container .btn.blue:hover{
+    background-color: #141E61;
+    color:#FFFFFF;
+}
+.btn_container i{
+    margin-right: 13px;
+    font-size: 16px;
+}
+/* jquery dialog end*/
