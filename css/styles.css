@@ -1,5 +1,9 @@
 /* jquery dialog */
 
+.ui-dialog{
+    min-width: 752px;
+}
+
 .ui-dialog .ui-dialog-titlebar {
     background-color: #000000;
     color: #FFFFFF;
